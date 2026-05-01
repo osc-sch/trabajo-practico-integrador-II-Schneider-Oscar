@@ -1,1 +1,5 @@
-.body{margin:o auto;} 
+body{
+    background-color: rgb(255, 255, 255) !important;
+    margin: 20px; 
+    box-sizing: border-box;
+} 

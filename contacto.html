@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="asset/css/institucional.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"> <a href="/"
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <img src="asset/img/logo.png" alt="" srcset="" width="150px">
+        </a>
+        <nav>
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="index.html" class="nav-link ">Home</a></li>
+                <li class="nav-item"><a href="institucional.html" class="nav-link">Institucion</a>
+                </li>
+                <li class="nav-item"><a href="carrera.html" class="nav-link ">Carreras</a></li>
+                <li class="nav-item"><a href="contacto.html" class="nav-link active bg-success">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container my-5 py-5 border rounded bg-light shadow-sm">
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <h2 class="text-success fw-bold">Contacto</h2>
+                    <p class="text-muted">¿Tenés dudas sobre las inscripciones o nuestras carreras? Dejanos tu consulta
+                        y el equipo del instituto te responderá a la brevedad.</p>
+                    <hr>
+                    <ul class="list-unstyled">
+                        <li><strong>📍 Ubicación:</strong> Ruta Nacional Nº 81, Km 1190</li>
+                        <li><strong>📧 Email:</strong> info@ipf.edu.ar</li>
+                        <li><strong>⏰ Horarios:</strong> Lunes a Viernes de 08:00 a 20:00 hs</li>
+                        <li><strong>📨 WhatsApp:</strong> 3704860530</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <form action="#" method="POST" class="needs-validation" novalidate>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre Completo</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="nombre..." required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com"
+                                required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="tecnicatura" class="form-label">Carrera de Interés</label>
+                            <select class="form-select" id="tecnicatura">
+                                <option selected disabled value="">Seleccionar una opción...</option>
+                                <option value="mecatronica">Mecatrónica</option>
+                                <option value="software">Desarrollo de Software</option>
+                                <option value="telecomunicaciones">Telecomunicaciones</option>
+                                <option value="quimica">Química Industrial</option>
+                                <option value="general">Consulta General</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" rows="4"
+                                placeholder="Escribí tu consulta aquí..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-success w-100 py-2 fw-bold">Enviar Consulta</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="container my-5 py-5 border rounded bg-light shadow-sm">
+            <h3>Ubicacion:</h3>
+            <hr>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583.5712697714926!2d-58.28072972820682!3d-26.0802643672949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945cb1005b21b355%3A0x36a052477a923c03!2sInstituto%20Polit%C3%A9cnico%20Formosa!5e0!3m2!1ses-419!2sar!4v1777904509306!5m2!1ses-419!2sar"
+                width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+    <div class=" bg-success">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 p-5 ">
+            <div class="col mb-3"> <a href="/"
+                    class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
+                    aria-label="Bootstrap"><img src="asset/img/logo.png" alt="" srcset="" width="250px"></a>
+                <p class="text-body-secondary">© 2025,Insituto Politecnico Formosa, <em>Todos los derechos
+                        Reservados</em></p>
+            </div>
+            <div class="col mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

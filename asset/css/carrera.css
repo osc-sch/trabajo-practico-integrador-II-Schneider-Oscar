@@ -1,3 +1,20 @@
 body{
     margin: 0 ;
 }
+
+.carrera{
+    background-image: url(../img/154_1750870624383_1_.webp);
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.cont-text-reverse{
+ background-color: rgba(25, 135, 84, 0.74);
+    padding: 20px;
+    color: white;
+}
+
+.cont-text{
+    background-color: rgba(255, 255, 255, 0.74);
+    padding: 20px;
+}

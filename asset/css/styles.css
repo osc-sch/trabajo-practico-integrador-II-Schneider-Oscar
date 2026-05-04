@@ -7,7 +7,9 @@ body{
 
 header{
     width: 100%;
+    padding: 20px;
 }
+
 
 .icon-card{
     font-size: 128px;
